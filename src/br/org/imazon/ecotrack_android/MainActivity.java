@@ -60,7 +60,7 @@ public class MainActivity extends Activity implements LocationListener {
     
     
             
-    Log.i("Projection", map.getProjection().getVisibleRegion().toString());
+    Log.i("MainActivity", map.getProjection().getVisibleRegion().toString());
     
     LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
     
